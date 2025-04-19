@@ -1,0 +1,100 @@
+p{
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+     font-optical-sizing: auto;
+      font-weight: 400;
+     font-style: normal;
+}
+body{
+    background-color:hsl(30, 54%, 90%);
+}
+.conteneur{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    width: 800px;
+    border-radius:25px;
+    padding: 30px; ;
+}
+.conteneur h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Preparation{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 20px;
+}
+.Preparation h4{
+    color:  hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-left: 17px;
+
+}
+.Preparation ul{
+    color:  hsl(332, 51%, 32%);
+}
+.Ingredients h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Ingredients ul{
+    color:  hsl(332, 51%, 32%);
+
+}
+.line{height: 1px;
+    background-color:hsl(30, 54%, 90%);
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;}
+.Instructions h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 17px;
+}
+.Instructions ol{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.Nutrition h2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.colonne2{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    padding-right: 150px;
+}
+.colonne1{
+    padding-left: 30px;
+}
+table,td{
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    border-collapse: collapse;
+    width: 800px;
+}
+.conteneur img{
+    width: 800px;
+    border-radius : 15px;
+    margin-top: 15px;
+}
