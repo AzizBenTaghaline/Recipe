@@ -19,3 +19,11 @@ stars.forEach((star, index) => {
     ratingText.textContent = `Note : ${index + 1}/5`;
   });
 });
+document.getElementById('submitReview').addEventListener('click', () => {
+  const note = document.getElementById('ratingValue').textContent;
+  const comment = document.getElementById('comment').value;
+  document.getElementById('reviewDisplay').innerHTML = `<p>${note}</p><p>${comment}</p>`;
+});
+document.getElementById('watchVideo').addEventListener('click', function () {
+  window.open('https://youtu.be/vSrMlkmSRLo?si=OddwNpjS5fVi3AXt.com/watch?v=dQw4w9WgXcQ', '_blank');
+});

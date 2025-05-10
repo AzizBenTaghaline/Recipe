@@ -126,3 +126,69 @@ table,td{
   #stars .active {
     color: gold;
   }
+  .comment-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  #comment {
+    width: 100%;
+    padding: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 16px;
+    border: 1px solid hsl(30, 10%, 70%);
+    border-radius: 8px;
+    resize: vertical;
+    background-color: #fff;
+    color: hsl(30, 10%, 34%);
+  }
+  
+  #submitReview {
+    align-self: flex-start;
+    padding: 8px 16px;
+    background-color: hsl(14, 45%, 36%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-family: "Outfit", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submitReview:hover {
+    background-color: hsl(14, 45%, 26%);
+  }
+  
+  #reviewDisplay {
+    background-color: hsl(30, 54%, 90%);
+    padding: 15px;
+    border-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    color: hsl(30, 10%, 34%);
+    margin-top: 10px;
+  }
+body.dark {
+  background-color: #1e1e1e;
+  color: white;
+}
+body.dark .conteneur {
+  background-color: #2e2e2e;
+}
+#watchVideo {
+    padding: 10px 20px;
+    background-color: hsl(14, 45%, 36%);
+    color: white;
+    font-family: "Outfit", sans-serif;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  #watchVideo:hover {
+    background-color: hsl(14, 45%, 26%);
+  }
+  

@@ -78,26 +78,11 @@
     <span>★</span>
   </div>
   <p id="ratingValue">Note : 0/5</p>
-<script >
-  const toggleBtn = document.getElementById('toggleInstructions');
-  const instructions = document.querySelector('.Instructions');
-  let visible = false; 
-  
-  toggleBtn.addEventListener('click', () => {
-    visible = !visible;
-    instructions.style.display = visible ? 'block' : 'none';
-    toggleBtn.textContent = visible ? 'Cacher les instructions' : 'Afficher les instructions';
-  });
-  const stars = document.querySelectorAll('#stars span');
-  const ratingText = document.getElementById('ratingValue');
-  
-  stars.forEach((star, index) => {
-    star.addEventListener('click', () => {
-      stars.forEach((s, i) => {
-        s.classList.toggle('active', i <= index);
-      });
-      ratingText.textContent = `Note : ${index + 1}/5`;
-    });
-  }); </script>
+</div>
+<textarea id="comment" rows="4" placeholder="Laissez un commentaire..."></textarea>
+<button id="submitReview">Envoyer l’avis</button>
+<div id="reviewDisplay"></div>
+<button id="watchVideo">Voir la vidéo de la recette</button>
+<script src="script.js" ></script>
 </body>
 </html>
